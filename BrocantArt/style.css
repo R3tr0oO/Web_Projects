@@ -1,0 +1,92 @@
+ul{
+	 display: inline-block;
+	 margin: auto;
+	 text-align: left
+}
+body{
+	text-align : center;
+	background-color : yellow;
+	color : blue;
+	font-family : MV Boli
+}
+hr{
+	border-color : red;
+}
+div.menu{
+	text-align : left;
+}
+table{
+	width : 50%;
+	text-align : center;
+	vertical-align : middle;
+	border-color : black;
+	border-style : solid solid solid solid;
+	border-width : thin thin thin thin;
+	border-collapse : collapse;
+}
+td,th{
+	border-color : black;
+	border-style : solid solid solid solid;
+	border-style : thin thin thin thin;
+}
+a.button{
+	color : white;
+	display : inline-block;
+	background-color : #0000ff;
+	text-decoration : none;
+	font-weight : bold;
+	text-align : center;
+	padding : 5px;
+	width : 100px;
+}
+a.button:hover{
+	color: #000000;
+	background-color : #CCFF00;
+}
+.zoom img{
+	width : 300px;
+	height : 300px;
+}
+.zoom img:hover{
+	width : 400px;
+	height : 400px;
+}
+*{
+margin:0;
+}
+#entete{
+text-align : center;
+background:#FF9900;
+height:20%;
+margin:0.5%;
+}
+#conteneur{
+display:flex;
+}
+#menu{
+background-color:#FF9900;
+width:20%;
+margin-left : 10%;
+}
+#droite{
+background-color:#9966FF;
+width : 60%;
+margin-left: 10%;
+font-size: 150%;
+}
+#footer{
+text-align:center;
+background-color:#669933;
+height:10%;
+margin-top:1%;
+}
+
+#content{
+	margin-left: 50%;
+	background: #FF9900;
+}
+#leftbox{
+	margin-left: 80%;
+	width: 60%;
+	margin-top: 90%;
+}
